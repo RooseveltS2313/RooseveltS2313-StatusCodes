@@ -17,6 +17,7 @@ public class JavalinSingleton {
 
         app.get("/client-side-err", ctx -> {
         
+            //grass
             ctx.status(400);
             
         });
